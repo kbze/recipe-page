@@ -1,0 +1,82 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #004d40;
+}
+
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #004d40;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+#recipeTable {
+    width: 100%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+#recipeTable th, #recipeTable td {
+    border: 1px solid #00796b;
+    padding: 10px;
+    text-align: left;
+}
+
+#recipeTable th {
+    background-color: #004d40;
+    color: white;
+}
+
+#recipeTable td {
+    background-color: #e0f2f1;
+}
+
+button[style] {
+    background-color: #d32f2f;
+    color: white;
+}
